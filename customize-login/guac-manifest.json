@@ -1,0 +1,17 @@
+{
+
+    "guacamoleVersion" : "0.9.9",
+	
+	"name"      : "Login Page Customize Extension",
+    "namespace" : "guac-customize",
+
+    "css" : [ "web/custom.css" ],
+
+    "translations" : [ "translations/en.json" ],
+
+    "resources" : {
+        "web/images/logo.png" : "image/png"
+    }
+
+}
+

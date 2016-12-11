@@ -1,0 +1,28 @@
+
+/* Controls logo above the login fields */
+.login-ui .login-dialog .logo {
+	width: 250px;
+	height: 240px;
+	background-size: auto;
+	-webkit-background-size: auto;
+    background-image:  url('app/ext/guac-customize/web/images/logo.png');
+}
+
+.login-ui div.login-dialog {
+    background: white;
+}
+
+.login-ui .login-fields .labeled-field {
+    z-index: 0;
+}
+
+/* Fixes the font size so the welcome text fits on one line*/
+.login-ui .login-dialog .version {
+	font-size: 1.0em;
+}
+
+/* This removes the Guacamole {Version} from the login box
+.version.ng-binding {
+    display: none;
+}
+*/
